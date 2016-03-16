@@ -41,7 +41,9 @@ SUBDIRS= 					\
 	cjson 					\
 	crypto 					\
 	dhtlib					\
-	tsl2561
+	tsl2561					\
+	http
+	
 
 endif # } PDIR
 
@@ -87,6 +89,7 @@ COMPONENTS_eagle.app.v6 = 			\
 	dhtlib/libdhtlib.a 			\
 	tsl2561/tsl2561lib.a			\
 	modules/libmodules.a			\
+	http/libhttp.a				\
 
 # Inspect the modules library and work out which modules need to be linked.
 # For each enabled module, a symbol name of the form XYZ_module_selected is

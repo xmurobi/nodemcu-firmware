@@ -37,10 +37,10 @@ void myspiffs_check_callback(spiffs_check_type type, spiffs_check_report report,
 }
 
 /*******************
-The W25Q32BV array is organized into 16,384 programmable pages of 256-bytes each. Up to 256 bytes can be programmed at a time. 
-Pages can be erased in groups of 16 (4KB sector erase), groups of 128 (32KB block erase), groups of 256 (64KB block erase) or 
-the entire chip (chip erase). The W25Q32BV has 1,024 erasable sectors and 64 erasable blocks respectively. 
-The small 4KB sectors allow for greater flexibility in applications that require data and parameter storage. 
+The W25Q32BV array is organized into 16,384 programmable pages of 256-bytes each. Up to 256 bytes can be programmed at a time.
+Pages can be erased in groups of 16 (4KB sector erase), groups of 128 (32KB block erase), groups of 256 (64KB block erase) or
+the entire chip (chip erase). The W25Q32BV has 1,024 erasable sectors and 64 erasable blocks respectively.
+The small 4KB sectors allow for greater flexibility in applications that require data and parameter storage.
 
 ********************/
 
